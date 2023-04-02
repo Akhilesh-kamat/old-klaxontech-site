@@ -1,0 +1,97 @@
+.body-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    /* border: 2px solid red; */
+}
+
+.site-banners{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 2px solid rgb(109, 32, 182); */
+    width: 100%;
+}
+
+.banner-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 2px solid rgb(109, 32, 182); */
+    width: 100%;
+
+}
+.banner-wrapper .bnr{
+    width: 100%;
+}
+
+.why-choose-us{
+    margin-top: 8rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+    
+}
+.why-choose-us #why-klaxontech{
+    color: var(--Secondary-color);
+    font-size: 2rem;
+}
+.why-choose-us h1 {
+    color: var(--Secondary-color);
+    font-size: 5rem;
+    text-align: center;
+}
+
+.why-cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    margin-bottom: 8rem;
+}
+
+.why-card{
+    width: 36rem;
+    height: 24rem;
+    margin-top: 1.5rem;
+    /* border: 2px solid red; */
+    text-align: start;
+    transition: .2s all ease;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+
+}
+.why-card:hover{
+    transform: translateY(3%);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 10px 15px;
+}
+
+.why-card-wrap{
+    margin: 3.5rem 0 0 3rem;
+} 
+
+.why-card-wrap h2{
+    font-size: 2.5rem;
+}
+.why-card i{
+    color: var(--Primary-color);
+    font-size: 4.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.why-para{
+    text-align: start;
+    
+}
+.why-para li {
+    /* letter-spacing: .2rem; */
+    margin-left: 4rem;
+    font-size: 1.5rem;
+    color: var(--Primary-color);
+    margin-top: 1rem;
+}

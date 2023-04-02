@@ -1,0 +1,85 @@
+.Loading-page {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: .3s all ease-out;
+    background-color: #ffffff;
+    position: absolute;
+    z-index: 1000;
+    /* overflow-y: hidden !important; */
+}
+
+
+.Loading-page .Loading-txt {
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: 600;
+    text-shadow: 0px 0px 2px #00000020;
+    letter-spacing: .3rem;
+    background-image: url(../Media/wav.png);
+    background-repeat: no-repeat;
+    /* -webkit-text-fill-color: transparent; */
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.Loading-txt.active1 {
+    animation: loading-animation-side 2s linear forwards;
+}
+
+.Loading-txt.active2 {
+    animation: loading-animation-up 2s linear forwards;
+}
+
+.Loading-percentage {
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: 300;
+    opacity: .7;
+
+}
+
+
+@keyframes loading-animation-side {
+    0% {
+        background-position: left -500px top -100px;
+
+    }
+
+    40% {
+        background-position: left -250px top -100px;
+
+    }
+
+    100% {
+        background-position: left 0px top -100px;
+
+
+    }
+
+}
+
+@keyframes loading-animation-up {
+    0% {
+        background-position: left 0px top 0px;
+
+    }
+
+    40% {
+        background-position: left -0px top -25px;
+
+    }
+
+    100% {
+        background-position: left 0px top -100px;
+
+
+    }
+
+}

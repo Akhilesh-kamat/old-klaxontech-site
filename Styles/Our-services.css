@@ -1,0 +1,192 @@
+.our-services{
+    width: 100%;
+    background-color: #F0FAFF;
+    display: flex;
+    padding-top: 8rem;
+    justify-content: space-around;
+    position: relative;
+    
+}
+
+.our-services .our-services-img{
+    /* width: 45%; */
+    margin-left: 3.5rem;
+    padding-top: 3.5rem;
+    align-self: center;
+    padding-bottom: 1.5rem;
+}
+
+.our-services .our-services-img img{
+    width: 90%;
+}
+
+.our-services-content{
+    padding-top: 3.5rem;
+
+    margin-right: 5rem;
+    
+} 
+
+.our-services-content .wrap{
+    
+    width:100%;
+    color: var(--Secondary-color);
+}
+.our-services-content .wrap .title{
+    width:100%;
+    font-size: 2rem;
+    
+}
+.our-services-content .wrap .title2{
+    width:100%;
+    font-size: 5rem;
+    font-weight: 500;
+    color: var(--Secondary-color);
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+
+}
+.our-services-content .wrap .title3{
+    width:100%;
+    font-size: 2rem;
+    /* font-weight: 500; */
+    color: var(--txt-color);
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+
+}
+.our-services-content .wrap .list-services{
+    width:100%;
+    font-size: 2rem;
+    /* font-weight: 500; */
+    color: var(--Primary-color);
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+
+}
+.our-services-content .wrap .list-services .service{
+    width:100%;
+    font-size: 2rem;
+    /* font-weight: 500; */
+    color: var(--Primary-color);
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: start;
+    gap: 2rem;
+
+}
+.our-services-content .wrap .list-services i{
+    /* width:100%; */
+    font-size: 1.5rem;
+    /* font-weight: 500; */
+    color: var(--Secondary-color);
+    /* margin-bottom: 1rem; */
+    margin-top: .8rem;
+
+}
+.our-services-content .wrap .list-services .service-txt{
+    width:100%;
+    font-size: 2rem;
+    /* font-weight: 500; */
+    color: var(--txt-color);
+    /* margin-bottom: 1rem;
+    margin-top: 1rem; */
+
+}
+
+/* counter */ /* counter */ /* counter */ /* counter */
+
+.counter-section{
+    margin-top: 3.5rem;
+    width: 85%;
+    background-color: #ffffff;
+    /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; */
+    border-radius: 1rem;
+}
+
+.services-counter{
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 2px solid red; */
+    justify-content: space-around;
+
+}
+.counter{
+    display: flex;
+    /* border: 2px solid rgb(116, 190, 18); */
+    /* padding: 5rem 5rem 5rem 5rem; */
+    flex-basis: 20%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; */
+    /* margin-top: 1.5rem; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 1rem;
+    padding: 1.5rem 0 1.5rem 0;
+    transition: .2s all ease;
+    margin-bottom: 1.5rem;
+}
+
+.counter:hover{
+    transform: translateY(4%);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.counter-wrap{
+        font-size: 4.8rem;
+        font-weight: 500;
+}
+.counter-title{
+    font-size: 1.8rem;
+    color: var(--txt-color);
+    width: 100%;
+    /* border: 2px solid red; */
+    text-align: center;
+    margin-top: 1.6rem;
+}
+
+@media only screen and (max-width: 746px) {
+
+    .counter{
+        flex-basis: 40%;
+    }
+}
+
+/* Companies we hire for */
+
+.companies{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.compaines-title{
+    font-size: 4.8rem;
+    font-weight: 500;
+    text-align: center;
+    margin: 5rem 0rem;
+    color: var(--Secondary-color);
+}
+
+.companies-wrap{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.companies-wrap img{
+    width: 12rem;
+    margin: 3rem 1.5rem;
+    transition: .2s transform ease;
+}
+
+.companies-wrap img:hover{
+    transform: translateY(3%);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+}
