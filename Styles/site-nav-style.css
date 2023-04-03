@@ -203,6 +203,9 @@ header {
         flex-wrap: wrap-reverse;
         /* border: 2px solid yellow; */
     }
+    .main-wrapper{
+        overflow-x: hidden;
+    }
     
 
 }
