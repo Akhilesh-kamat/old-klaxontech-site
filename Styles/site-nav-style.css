@@ -203,9 +203,6 @@ header {
         flex-wrap: wrap-reverse;
         /* border: 2px solid yellow; */
     }
-    .main-wrapper{
-        overflow-x: hidden;
-    }
     
 
 }
@@ -230,6 +227,7 @@ header {
     transform: translateX(200%);
     transition: all 0.7s ease;
     z-index: 999999;
+    display:none;
 }
 
 
@@ -282,6 +280,7 @@ header {
 .toggle-nav-active {
     transform: translateX(85%) !important;
     /* position: sticky; */
+    display:Block;
 }
 
 .bi-list {
